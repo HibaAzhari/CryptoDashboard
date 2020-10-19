@@ -1,0 +1,83 @@
+body {
+    background-color: #262833;
+    font-family: 'Roboto';
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+h1 {
+    color: #ffffff;
+}
+h3 {
+    color: #596691;
+}
+h4 {
+    color: #9fa1a7;
+    float: right;
+}
+button {
+    color: #ffffff;
+    float: left;
+	position: relative;
+	padding: 10px 40px;
+    margin: 0px 10px 10px 0px;
+    border-radius: 10px;
+    border-width: 0ch;
+	font-size: 15px;
+    text-decoration: none;	
+}
+.btn-group button {
+    float: left;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 0px;
+    margin: 0px 0px 0px 0px;
+}
+.yellow {
+	background-color: #f8b261;
+}
+.red {
+	background-color: #e07f7f;
+}
+.green {
+	background-color: #4acfac;
+}
+.gray {
+    color: #747474;
+	background-color: #e2e2e2;
+}
+.clearbtn {
+    float: right;
+}
+table {
+    border-spacing: 1;
+    border-collapse: collapse;
+    background: #ffffff;
+    color: #747474;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding: 33px 30px;
+  }
+  table * {
+    position: relative;
+  }
+  table td, table th {
+    padding-left: 16px;
+    text-align: center;
+  }
+  table td {
+      text-align: right;
+  }
+  table th {
+    height: 60px;
+    color: #ebebeb;
+    background: #7e8ce0;
+    font-weight: 200;
+  }
+  tbody tr:hover {
+    background-color: #f4f4fa;
+    cursor: pointer;
+  }
